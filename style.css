@@ -1,0 +1,55 @@
+
+
+body {
+    background-color: aliceblue;
+
+nav {
+    width: 20%;
+    height: 100px;
+    border: 1px solid;
+    background-color: rgba(30, 30, 34, 0.356);
+    border-radius: 50px;
+    font-size: 35px;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    outline: none;
+}
+
+.img-custom {
+    width: 100%; /* Se adapta al ancho del contenedor */
+    max-width: 400px; /* Tamaño máximo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    margin: 10px; /* Espaciado entre imágenes */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.carousel-inner img {
+    width: 200%; /* Se adapta al ancho del contenedor */
+    max-width: 500px; /* Tamaño máximo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    margin: 20px; 
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.img-custom {
+    width: 100%; /* Las imágenes ocuparán el 100% del contenedor */
+    max-width: 400px; /* Tamaño máximo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+}
+
+.navbar-nav .nav-link {
+    margin-left: 10px; /* Espaciado entre los enlaces */
+}
+.img-custom {
+    width: 100%; /* Las imágenes ocuparán el 100% del contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+.logo {
+    max-width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
